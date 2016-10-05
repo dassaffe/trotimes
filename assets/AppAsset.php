@@ -19,11 +19,17 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/tronet.css',
+        'css/jquery.circliful.css',
+        'css/material-design-iconic-font.min.css'
     ];
     public $js = [
+        'js/tronet.js',
+        'js/jquery.circliful.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+
     ];
 }

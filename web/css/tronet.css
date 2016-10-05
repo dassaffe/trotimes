@@ -1,0 +1,34 @@
+html, body	{
+    height: 100%;
+}
+
+#logo {
+    margin-top: -10px;
+    width: 140px;
+    height: auto;
+}
+
+.pie-headline {
+    text-align: center;
+}
+
+#hours-worked-daily,
+#hours-worked-weekly {
+    margin-top: -40px;
+}
+
+.hours-positive {
+    font-weight: bold;
+    color: #4cae4c;
+}
+.start-overview {
+    margin-top: 54px;
+}
+
+.start-headline-overview {
+    text-align: center;
+}
+
+.panel-body {
+    padding-left: 0;
+}
